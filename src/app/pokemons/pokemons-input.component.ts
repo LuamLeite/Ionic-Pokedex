@@ -6,8 +6,10 @@ import { Component } from '@angular/core';
     styleUrls: ['./pokemons-input.component.css']
 })
 export class PokemonsInputComponent{
-    OnCreatePokemon(pokemonInput :string)
+    enteredPokemonInput = '';
+    OnCreatePokemon()
     {
-        console.log('Logo esse pokémon será criado aqui:' + pokemonInput);
+        console.log('Logo esse pokémon será criado aqui:' + this.enteredPokemonInput);
+        this.enteredPokemonInput = '';
     }
 }
