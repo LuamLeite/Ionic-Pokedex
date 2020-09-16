@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PokemonsComponent } from './pokemons/pokemons.component';
+import { PokemonsInputComponent } from './pokemons/pokemons-input.component';
 @NgModule({
   declarations: [
-    AppComponent, PokemonsComponent
+    AppComponent, PokemonsComponent, PokemonsInputComponent
   ],
   imports: [
     BrowserModule
