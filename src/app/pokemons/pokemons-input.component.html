@@ -1,4 +1,4 @@
 <p>AQUI SERÁ O INPUT DOS POKEMÃOS IMAGINÁRIOS</p>
 <label for="name"> Nome:</label>
-<input type="text" id="name">
-<button (click)="OnCreatePokemon()">Inserir</button>
+<input type="text" id="name" #pokemonInput>
+<button (click)="OnCreatePokemon(pokemonInput.value)">Inserir</button>
